@@ -249,12 +249,19 @@ cd /
 rm -rf "$TEMP_DIR"
 
 #######################################################
-# Installation Complete
+# Installation Complete - Display Summary
 #######################################################
+
+# Clear screen
+clear
+
+# Display completion box
 echo ""
-echo -e "${GREEN}========================================${NC}"
-echo -e "${GREEN}CodeProject.AI Installation Complete!${NC}"
-echo -e "${GREEN}========================================${NC}"
+echo -e "${GREEN}╔══════════════════════════════════════════════════════════╗${NC}"
+echo -e "${GREEN}║${NC}                                                          ${GREEN}║${NC}"
+echo -e "${GREEN}║${NC}          ${GREEN}CodeProject.AI Installation Complete!${NC}          ${GREEN}║${NC}"
+echo -e "${GREEN}║${NC}                                                          ${GREEN}║${NC}"
+echo -e "${GREEN}╚══════════════════════════════════════════════════════════╝${NC}"
 echo ""
 echo "Server URL: http://$(hostname -I | awk '{print $1}'):32168"
 echo "Dashboard: http://$(hostname -I | awk '{print $1}'):32168"
@@ -271,4 +278,16 @@ echo "  Logs:    sudo journalctl -u codeproject-ai -f"
 echo ""
 echo "Installation directory: $INSTALL_DIR"
 echo ""
-log "Installation script completed successfully!"
+echo ""
+
+# Display branding box
+echo -e "${GREEN}╔══════════════════════════════════════════════════════════╗${NC}"
+echo -e "${GREEN}║${NC}                                                          ${GREEN}║${NC}"
+echo -e "${GREEN}║${NC}                      Powered by NAO                      ${GREEN}║${NC}"
+echo -e "${GREEN}║${NC}                                                          ${GREEN}║${NC}"
+echo -e "${GREEN}║${NC}                           SIIC                           ${GREEN}║${NC}"
+echo -e "${GREEN}║${NC}                                                          ${GREEN}║${NC}"
+echo -e "${GREEN}║${NC}              Comando Territorial de Aveiro               ${GREEN}║${NC}"
+echo -e "${GREEN}║${NC}                                                          ${GREEN}║${NC}"
+echo -e "${GREEN}╚══════════════════════════════════════════════════════════╝${NC}"
+echo ""
