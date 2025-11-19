@@ -283,7 +283,7 @@ echo ""
 # Display branding box
 echo -e "${GREEN}╔══════════════════════════════════════════════════════════╗${NC}"
 echo -e "${GREEN}║${NC}                                                          ${GREEN}║${NC}"
-echo -e "${GREEN}║${NC}                      Powered by NAO                      ${GREEN}║${NC}"
+echo -e "${GREEN}║${NC}                           N A O                          ${GREEN}║${NC}"
 echo -e "${GREEN}║${NC}                                                          ${GREEN}║${NC}"
 echo -e "${GREEN}║${NC}                           SIIC                           ${GREEN}║${NC}"
 echo -e "${GREEN}║${NC}                                                          ${GREEN}║${NC}"
